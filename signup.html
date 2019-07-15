@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles1.css">
+        <title>Registration</title>
+    </head>
+    <body>
+        <form action="http://localhost/onlinepharmacy/signup.php" style="border:1px solid #ccc" method="POST">
+            <div class="container">
+              <h1>Sign Up</h1>
+              <p>New to this site?Create an account to continue shopping.</p>
+              <hr>
+        
+              <label for="name"><b>Name</b></label>
+              <input type="text" placeholder="Enter Your name" name="name" required>
+              <br/>
+
+              <label for="username"><b>User Name</b></label>
+              <input type="text" placeholder="Enter Your User name" name="username" required>
+              <br/>
+          
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+              <br/>
+          
+              
+              <label for="email"><b>Email</b></label>
+              <input type="email" placeholder="Enter Email" name="mail" required>
+              <br/>
+              <label for="phone"><b>Phone Number</b></label>
+              <input type="text" placeholder="Enter Your Phone Number" name="phonenum" required>
+              <br/> 
+              <label for="address"><b>Address</b></label>
+              <input type="text" placeholder="Enter Your Address" name="address" required>
+              <br/>
+        
+          
+              <label>
+                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+              </label>
+          
+              <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+          
+              <div class="clearfix">
+                <button type="button" class="cancelbtn">Cancel</button>
+                <button type="submit" class="signupbtn">Sign Up</button>
+              </div>
+            </div>
+          </form>
+          <br>
+          <p>Already a member?Click <a href="signin.html"> here</a> to sign in</p>
+    </body>
+</html>
